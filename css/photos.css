@@ -1,0 +1,53 @@
+
+/*h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: left;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+}
+
+div {
+	text-align: center;
+}
+
+body {
+	background: #C894C4;
+}*/
+
+p {
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.glyphicon {
+	color: red;
+}
+
+.navbar-inverse {
+	background: #3C464E;
+
+}
+
+.navbar-inverse .navbar-header .navbar-brand {
+	color: white;
+	text-transform: uppercase;
+}
+
+
+
+/*
+img {
+	/*width: 50;
+	height: 700px;
+	margin: 1.5%;
+	align-content: center;
+}
+*/

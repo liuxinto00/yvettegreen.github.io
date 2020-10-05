@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yvette's Main Page</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand">Yvette Green</a> 
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="page2.html">I Love Dogs! <i class="fas fa-paw"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- Profile Picture and Heading -->
+      <header class="masthead bg-success text-center">
+      	<div class="container" id="profile">
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
+				<div id="content">
+					<img class="profilePhoto" width=400 src="images/Yvette_update.png" alt="headshot of Yvette Green">
+					<h1>Yvette Green</h1>
+					<i class="fas fa-laptop-code" style="font-size:50px"></i>
+					<h2 class="font-weight-light mb-0">Candidate for Master of Science in Computer Sciences</h2>
+				</div>	
+      		</div>
+      		<div class="col-lg-2"></div>
+      	</div>
+      </div>
+      </header>
+
+
+      <!-- About section -->
+      <section class="bg-info text-center mb-0" id="about">
+      	<div class="container" id="about">
+      		<h2>About</h2>
+      		<div class="row">
+      			<div class="col-md-4">
+      				<i class="far fa-question-circle" style="font-size:50px"></i>
+      				<p>I like to be engaged in a state of inquiry and problem-solving.</p>
+      			</div>
+      			<div class="col-md-4">
+      				<i class="fas fa-puzzle-piece" style="font-size:50px"></i>
+      				<p>I like to solve problems and puzzles, to take something apart and figure out how it works, why it works the way it does, and how it can be improved or modified.</p>
+      			</div>
+      			<div class="col-md-4">
+      				<i class="fas fa-file-code" style="font-size:50px"></i>
+      				<p>Computer Science fits me because there is always something new to learn, explore, and innovate.</p>
+      			</div>
+      		</div>
+      		<div class="btn-group" style="padding-top:20px">
+      			<input type="button" class="btn btn-primary btn-lg" value="Check Out Yvette's Resume" onclick="window.open('pdf/resume.pdf')" style="font-weight:bold">
+      		</div>
+      	</div>
+      </section>
+
+	<!-- Projects section -->
+      <section class="bg-default text-center mb-0" id="projects">
+      	<h2>Projects</h2>
+      	<div class="row">
+      		<div class="col-md-4">
+      			<div class="btn-group">
+      				<h4>
+      					<input type="button" class="btn btn-link" value="Working with CSV Files in Python & Jupiter Notebook" onclick="window.open('pdf/project1.pdf')" style="font-weight:bold">
+      				</h4>
+      			<img src="images/project1.png" alt="Project 1 image" width="450" height="450">
+      			</div>
+      		</div>
+      		<div class="col-md-4">
+      			<div class="btn-group">
+      				<h4>
+      					<input type=button class="btn btn-link" value="Coffee App in Android Studio" onclick="window.open('https://github.com/greeny90/Android-Coffee-App')"  style="font-weight:bold">
+      				</h4>
+      			<img src="images/project2.png" alt="Project 2 image" width="350" height="550">
+      			</div>
+      		</div>
+      		<div class="col-md-4">
+      			<div class="btn-group">
+      				<h4>
+      					<input type=button class="btn btn-link" value="Tic-Tac-Toe Game in Java" onclick="window.open('https://github.com/greeny90/TicTacToe')"  style="font-weight:bold">
+      				</h4>
+      			<img src="images/project3.png" alt="Project 3 image" width="425" height="450">
+      			</div>
+      		</div>
+      	</div>
+      	
+      </section>
+      
+
+
+	<!-- Footer -->
+	<footer class="page-footer bg-primary text-center" id="bottom">
+		<div class="container">
+			<div class="footer-copyright text-center py-3">© 2020 Copyright: Yvette Green</div>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+	
+</body>
+</html>
