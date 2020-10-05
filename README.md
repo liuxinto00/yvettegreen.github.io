@@ -15,4 +15,4 @@ Create a page that highlights my passions, skills, experience and aspirations fo
 - My projects
 - A separate page dedicated to my love for dogs
 
-
+![Website Screenshot](https://github.com/greeny90/yvettegreen.github.io/blob/master/images/siteimage.png)
