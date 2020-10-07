@@ -1,4 +1,6 @@
-# yvettegreen.github.io
+# Yvette's Personal Website
+
+https://greeny90.github.io/yvettegreen.github.io/
 
 ## Objective 
 Create a page that highlights my passions, skills, experience and aspirations for for CS5610 Web Development at Northeastern University.
